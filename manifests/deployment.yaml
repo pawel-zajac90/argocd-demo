@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: demo-app
-        image: <twoj-obraz>:latest
+        image: coristo/hello-app:1.0
         ports:
         - containerPort: 8080
   strategy:
